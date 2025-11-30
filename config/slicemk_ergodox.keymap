@@ -1,13 +1,12 @@
-#define LAYER_MAIN 0
-#define LAYER_SYMB 1
-#define LAYER_ARROWS 2
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/rgb.h>
+
+#define LAYER_MAIN 0
+#define LAYER_SYMB 1
+#define LAYER_ARROWS 2
 
 / {
 	keymap {

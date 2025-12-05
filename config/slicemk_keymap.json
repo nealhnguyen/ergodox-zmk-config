@@ -1,5 +1,5 @@
 {
-	"Modified": "2025-12-05T07:22:55.757127226Z",
+	"Modified": "2025-12-05T15:21:03.179232903Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_cx_blue",
 	"Shield": "slicemk_ergodox_dongle",
@@ -78,7 +78,7 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"C_RECORD"
+						"PLUS"
 					]
 				},
 				{
@@ -494,7 +494,7 @@
 					]
 				},
 				{
-					"Name": "",
+					"Name": "🔍",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -502,19 +502,19 @@
 					]
 				},
 				{
-					"Name": "",
+					"Name": "❓",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"RIGHT_ARROW"
+						"LEFT_SHIFT LEFT_GUI SLASH"
 					]
 				},
 				{
-					"Name": "",
+					"Name": "show Apps",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"C_POWER"
+						"C_AC_DESKTOP_SHOW_ALL_APPLICATIONS"
 					]
 				},
 				{
@@ -534,19 +534,19 @@
 					]
 				},
 				{
-					"Name": "",
+					"Name": "Emoji",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"C_AC_DESKTOP_SHOW_ALL_WINDOWS"
+						"LEFT_CONTROL LEFT_GUI SPACE"
 					]
 				},
 				{
-					"Name": "",
+					"Name": "⏻",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"C_MENU"
+						"C_SLEEP"
 					]
 				},
 				{
@@ -584,11 +584,11 @@
 					]
 				},
 				{
-					"Name": "",
+					"Name": "😴",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"K_POWER"
+						"LEFT_CONTROL LEFT_GUI Q"
 					]
 				},
 				{

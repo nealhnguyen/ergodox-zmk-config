@@ -25,9 +25,9 @@ Discord](https://discord.gg/FQvyd7BAaA).
 
 Visual representations of the keyboard layout layers are available in the `layoutImages/` directory:
 
-- `layer1.heic` - Base layer layout
-- `layer2.heic` - Secondary layer layout
-- `layer3.heic` - Tertiary layer layout
+![alt text](https://github.com/nealhnguyen/ergodox-zmk-config/raw/refs/heads/main/layoutImages/layer1.heic)
+![alt text](https://github.com/nealhnguyen/ergodox-zmk-config/raw/refs/heads/main/layoutImages/layer2.heic)
+![alt text](https://github.com/nealhnguyen/ergodox-zmk-config/raw/refs/heads/main/layoutImages/layer3.heic)
 
 These images show the key assignments for each layer to help visualize your keyboard configuration.
 

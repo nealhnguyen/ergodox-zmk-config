@@ -21,6 +21,16 @@ Discord](https://discord.gg/FQvyd7BAaA).
   options should instead go in `config/slicemk_ergodox_leftcentral.conf`.
 - To use with a custom ZMK fork, edit `config/west.yml`.
 
+# Layout Images
+
+Visual representations of the keyboard layout layers are available in the `layoutImages/` directory:
+
+- `layer1.heic` - Base layer layout
+- `layer2.heic` - Secondary layer layout
+- `layer3.heic` - Tertiary layer layout
+
+These images show the key assignments for each layer to help visualize your keyboard configuration.
+
 # Board/Shield
 
 If you are not sure which dongle or PCB version you have, please put your

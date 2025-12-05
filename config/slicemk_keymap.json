@@ -1,5 +1,5 @@
 {
-	"Modified": "2025-12-05T15:21:03.179232903Z",
+	"Modified": "2025-12-05T15:52:24.687591071Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_cx_blue",
 	"Shield": "slicemk_ergodox_dongle",
@@ -604,15 +604,16 @@
 					"Behavior": "&lt",
 					"Notes": "",
 					"Args": [
-						"symb",
+						"arrows",
 						"BACKSPACE"
 					]
 				},
 				{
 					"Name": "",
-					"Behavior": "&kp",
+					"Behavior": "&lt",
 					"Notes": "",
 					"Args": [
+						"symb",
 						"SPACE"
 					]
 				},
@@ -700,6 +701,14 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
+						"KP_DIVIDE"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&kp",
+					"Notes": "",
+					"Args": [
 						"KP_MULTIPLY"
 					]
 				},
@@ -726,12 +735,6 @@
 					"Args": [
 						"BACKSPACE"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",
@@ -797,6 +800,12 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "&trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -826,12 +835,6 @@
 					"Args": [
 						"KP_PLUS"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",
@@ -887,6 +890,12 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "&trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -916,12 +925,6 @@
 					"Args": [
 						"KP_PLUS"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",
@@ -993,6 +996,12 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "&trans",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1049,12 +1058,6 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
-				},
-				{
-					"Name": "",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
@@ -1082,6 +1085,14 @@
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
+						"KP_NUMBER_0"
+					]
+				},
+				{
+					"Name": "",
+					"Behavior": "&kp",
+					"Notes": "",
+					"Args": [
 						"KP_DOT"
 					]
 				},
@@ -1092,12 +1103,6 @@
 					"Args": [
 						"KP_ENTER"
 					]
-				},
-				{
-					"Name": "",
-					"Behavior": "&trans",
-					"Notes": "",
-					"Args": []
 				},
 				{
 					"Name": "",

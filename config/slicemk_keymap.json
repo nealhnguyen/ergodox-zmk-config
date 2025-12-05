@@ -1,5 +1,5 @@
 {
-	"Modified": "2025-11-30T00:07:52.279809343Z",
+	"Modified": "2025-12-05T07:22:55.757127226Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_cx_blue",
 	"Shield": "slicemk_ergodox_dongle",
@@ -919,7 +919,7 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&trans",
 					"Notes": "",
 					"Args": []
 				},
@@ -1565,7 +1565,7 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "&none",
+					"Behavior": "&trans",
 					"Notes": "",
 					"Args": []
 				},

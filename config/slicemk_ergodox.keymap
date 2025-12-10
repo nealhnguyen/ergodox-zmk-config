@@ -13,6 +13,17 @@
 #define QUICK_TAP_MS 160
 #define PRIOR_IDLE_MS 150
 
+&lt {
+    require-prior-idle-ms = <125>;
+    flavor = "balanced";
+};
+
+&mt {
+    require-prior-idle-ms = <125>;
+    flavor = "balanced";
+    hold-trigger-on-release;
+};
+
 / {
     behaviors {
         hrr: hrr {

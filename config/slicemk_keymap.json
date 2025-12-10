@@ -1,5 +1,5 @@
 {
-	"Modified": "2025-12-05T23:49:43.438991823Z",
+	"Modified": "2025-12-07T16:58:19.47425796Z",
 	"Keyboard": "ergodox",
 	"Board": "raytac_mdbt50q_cx_blue",
 	"Shield": "slicemk_ergodox_dongle",
@@ -250,36 +250,35 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "LSHFT A",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"A"
+						"&hrml LSHFT A"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "CMD S",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"S"
+						"&hrml RGUI S"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "LALT D",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"D"
+						"&hrml LALT D"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&mt",
+					"Name": "LCTRL F",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"LEFT_CONTROL",
-						"F"
+						"&hrml LCTRL F"
 					]
 				},
 				{
@@ -299,36 +298,35 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&mt",
+					"Name": "RCTRL J",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"LEFT_CONTROL",
-						"J"
+						"&hrmr RCTRL J"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "RALT K",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"K"
+						"&hrmr RALT K"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "CMD L",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"L"
+						"&hrmr LGUI L"
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&kp",
+					"Name": "RSHFT ;",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"SEMICOLON"
+						"&hrmr RSHFT SEMICOLON"
 					]
 				},
 				{
@@ -348,12 +346,11 @@
 					]
 				},
 				{
-					"Name": "",
-					"Behavior": "&mt",
+					"Name": "LCTRL Z",
+					"Behavior": "$custom",
 					"Notes": "",
 					"Args": [
-						"LEFT_CONTROL",
-						"Z"
+						"&hrml LCTRL Z"
 					]
 				},
 				{
@@ -513,11 +510,11 @@
 					]
 				},
 				{
-					"Name": "show Apps",
+					"Name": "show 🪟",
 					"Behavior": "&kp",
 					"Notes": "",
 					"Args": [
-						"C_AC_DESKTOP_SHOW_ALL_APPLICATIONS"
+						"C_AC_DESKTOP_SHOW_ALL_WINDOWS"
 					]
 				},
 				{
@@ -1658,5 +1655,5 @@
 			]
 		}
 	],
-	"Custom": ""
+	"Custom": "#define LEFT_KEYS 1 2 3 4 5 6 7 15 16 17 18 19 20 21 29 30 31 32 33 34 41 42 43 44 45 46 47 55 56 57 58 59\n#define LEFT_THUMB_KEYS 65 66 69 70 71 75\n#define RIGHT_KEYS 8 9 10 11 12 13 14 22 23 24 25 26 27 28 35 36 37 38 39 40 48 49 50 51 52 53 54 60 61 62 63 64\n#define RIGHT_THUMB_KEYS 67 68 72 73 74 76\n\n#define HRM_TAP_TERM_MS 250\n#define QUICK_TAP_MS 160\n#define PRIOR_IDLE_MS 150 \n\n/ {\n    behaviors {\n        hrml: home_row_mod_left {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"balanced\";\n            require-prior-idle-ms = <PRIOR_IDLE_MS>;\n            tapping-term-ms = <HRM_TAP_TERM_MS>;\n            quick-tap-ms = <QUICK_TAP_MS>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <RIGHT_KEYS>; // List of keys on the right side of the keyboard (excluding thumbs)\n            hold-trigger-on-release;\n        };\n        hrmr: home_row_mod_right {\n            compatible = \"zmk,behavior-hold-tap\";\n            #binding-cells = <2>;\n            flavor = \"balanced\";\n            require-prior-idle-ms = <PRIOR_IDLE_MS>;\n            tapping-term-ms = <HRM_TAP_TERM_MS>;\n            quick-tap-ms = <QUICK_TAP_MS>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <LEFT_KEYS>; // List of keys on the left side of the keyboard (excluding thumbs)\n            hold-trigger-on-release;\n\t\t};\n    };\n};"
 }
